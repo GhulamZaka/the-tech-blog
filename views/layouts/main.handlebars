@@ -4,28 +4,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>The Tech Blog</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Public+Sans:300i,300,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
 <body>
-  <div class="wrapper">
-    <header>
-      <h1>
-        <a href="/">The Tech Blog</a>
-      </h1>
-      <nav>
-        <button id="logout" class="btn-no-style">logout</button>
-        <a href="/login">login</a>
-    </nav>
+      <header>
+      <div class="container">
+        <nav class="row">
+             <ul>
+              <li class="col s2">
+              <a href="/home">Home</a>
+              </li>
+              <li class="col s2">
+                <a href="/dashboard">Dashboard</a>
+              </li>
+              <li class="col s2">
+               <a href="/login">login</a>
+              </li>
+            </ul>
+        </nav>
+        <h1 class="page-title">The Tech Blog</h1>
+      </div>
     </header>
+
     <main>
       {{{ body }}}
     </main>
-    <footer>
-      Thanks for visiting!
-    </footer>
-  </div>
+
+ 
 
   
   <script src="/javascript/logout.js"></script>
