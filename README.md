@@ -28,8 +28,8 @@ https://github.com/GhulamZaka/the-tech-blog
 
 ## Screenshots
 
-<img src = "./images/a1.jpg">
-<img src = "./images/a2.jpg">
-<img src = "./images/a3.jpg">
-<img src = "./images/a4.jpg">
-<img src = "./images/a5.jpg">
+<img src = "./public/images/a1.jpg">
+<img src = "./public/images/a2.jpg">
+<img src = "./public/images/a3.jpg">
+<img src = "./public/images/a4.jpg">
+<img src = "./public/images/a5.jpg">
