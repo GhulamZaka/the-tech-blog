@@ -22,6 +22,8 @@ npm start
 
 ## Deployed URL
 
+https://polar-shore-38803.herokuapp.com/
+
 ## Github Repository URL
 
 https://github.com/GhulamZaka/the-tech-blog
