@@ -1,53 +1,126 @@
 :root {
-    --primary: #627175;
-    --secondary: #daeaef;
-    --tertiary: #ff3d2e;
-    --light: #ffffff;
-    --dark: #000000;
-  }
-
-  * {
+    --primary: #bbc6ad;
+    --secondary: #1c2122;
+    --tertiary: #0b0100;
+}
+* {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
-  }
+    margin: 0;
+}
 
   body {
-    background-color: var(--secondary);
+    background-color: var(--primary);
     font-family: 'Public Sans', sans-serif;
-    color: var(--dark);
+  }
+
+  header {
+    height: 250px;
+    background-color: var(--secondary);
+  }
+
+  header h1 {
+    width: 35%;
+    font-size: 70px;
+    color: var(--secondary);
+    margin-left: 150px;
+    background-color: var(--primary);
+    border: 5px solid var(--primary);
+    border-radius: 10px;
+    padding: 10px;
+    
     
   }
 
-header {
-    background-color: var(--primary);
-    height: 200px;
+  nav {
+    width: 80%;
+    background-color: var(--secondary);
   }
-header h1 {
-    font-size: 50px;
-    margin-top: 30px;
-    margin-left: 20px;
+
+  header a {
+    font-size: 30px;
+    color: var(--primary);
+  }
+  .card {
     
-}
-header nav {
-    width: 100%;
+    margin: 20px 0 20px 0;
+    border: 5px solid var(--secondary);
+    border-radius: 5px;
+    background-color: var(--primary);
+  }
+  .card-header {
+    padding: 10px;
+    font-size: 20px;
+    color: var(--primary);
+    background-color: var(--secondary);
+    margin-top: 0;
+
+  }
+
+  .card-header h3, h4 {
+    font-size: 25px;
+  }
+  .b {
+    font-size: 15px;
     margin-top: 20px;
-    margin-left: 20px;
-    display: inline;
-    justify-content: space-around;
-}
-header nav a {
+    justify-content: center;
+  }
+
+  .card-body {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .form-label,
+  .form-input,
+  .form-textarea {
+      display: inline;
+      
+  }
+  
+  .form-label {
     font-size: 20px;
     color: var(--secondary);
+    padding: 1%;
   }
+  .form-input {
+    background-color: rgb(244, 247, 247);
+    padding: 3%;
+    font-size: 20px; 
+    border-radius: 5px;
+}
 
- header nav a:hover {
-    color: var(--secondary);
-    background-color: var(--dark);
-  }
+.form-btn {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 98%;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    color: var(--primary);
+    outline: none;
+    background-color: var(--secondary);
+    
+}
+
+.login-link {
+    font-size: 20px;
+    color: var(--tertiary);
+    margin-left: 20px;
+}
+
+.btn {
+  font-size: 20px;
+  text-decoration: none;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: var(--primary);
+  outline: none;
+  background-color: var(--secondary);
+  justify-content: center;
+  align-content: center;
  
- 
+}
 
 
-
-  
