@@ -1,1 +1,5 @@
-<div>welcome to my page</div>
+<ol class="post">
+  {{#each posts as |post|}}
+    {{> post-info post }}
+  {{/each}}
+</ol>
